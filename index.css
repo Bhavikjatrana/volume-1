@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+
+
+body{
+    margin:0px;
+    background-color: #090f1d;
+}
+
+nav{
+    padding: 10px;
+    background:linear-gradient(187deg, rgb(42 143 230) 0%, rgba(9,9,121,1) 51%, rgb(0 0 0) 100%);
+    box-shadow: 1px 10px 15px black;
+}
+
+nav a{
+    color: white;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    padding: 5px;
+    text-decoration: none;
+    margin:8px;
+    transition: 0.5s;
+}
+
+nav a:hover{
+    text-shadow: 2px 2px 6px #6291ff;
+}
+
+
+/* body container css */
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 3%;
+}
+
+.items {
+    display: flex;
+    width: 300px;
+    align-items: center;
+    margin:1%;
+    color: #fff;
+}
+
+.items a{
+    color:#fff;
+    text-decoration: none;
+}
+
+.items img {
+    border-radius: 4px;
+    width: 80%;
+    transition: 1s;
+}
+
+
+.items img:hover{
+  opacity:100%;
+  box-shadow: -8px 8px 10px rgba(0, 0, 0, 0.74);
+}
+
+.items p{
+  height: 0px;
+  transition: 1s;
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  /* cursor: pointer !important; */
+}
+
+.items p:hover{
+  border-radius: 3px;
+  padding: 8px;
+  cursor:default;
+  background-image: linear-gradient(crimson,red) ;
+  background-image:rgb(255, 2, 65);
+  width: max-content;
+  box-shadow: -3px 1px  10px black;
+  height:15px;
+}
+
+div {
+    flex-flow: column;
+}
